@@ -1115,7 +1115,7 @@ function quickCodeHandler(e)
 {
 	var target = e.target,
 		highlighterDiv = findParentElement(target, '.syntaxhighlighter'),
-		container = findParentElement(target, '.container'),
+		container = findParentElement(target, '.containerSH'),
 		textarea = document.createElement('textarea'),
 		highlighter
 		;
@@ -1612,7 +1612,7 @@ sh.Highlighter.prototype = {
 						+ '<tr>'
 							+ (gutter ? '<td class="gutter">' + this.getLineNumbersHtml(code) + '</td>' : '')
 							+ '<td class="code">'
-								+ '<div class="container">'
+								+ '<div class="containerSH">'
 									+ html
 								+ '</div>'
 							+ '</td>'

@@ -59,7 +59,7 @@ $caption_color:					$code_plain !default;
 		}
 		
 		td.code {
-			.container {
+			.containerSH {
 				textarea {
 					background: $background;
 					color: $code_plain;

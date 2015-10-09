@@ -80,7 +80,7 @@
 		td.code {
 			width: 100% !important;
 			
-			.container {
+			.containerSH {
 				position: relative !important;
 				
 				textarea {
@@ -112,7 +112,7 @@
 	
 	&.nogutter {
 		td.code {
-			.container textarea, .line { padding-left: 0em !important; }
+			.containerSH textarea, .line { padding-left: 0em !important; }
 		}
 	}
 	
